@@ -163,24 +163,27 @@ img[src*="stunning"] {
 	display: inline;
 }
 
+/*yellow span*/
 .about-me > div > p > span {
 	font-style: italic;
 	color: #FFFF27;
 	font-weight: bold;
-
 }
-
-	/****************************************************
-	*Instructions settings
-	*****************************************************/
-
 
 
 /****************************************************
 *Professional Skills settings
 *****************************************************/
 
+/*Header*/
+.about-me + section > div > h2{
+	text-align: end;
+	font-size: small
+}
 
+table {
+	background-color: #333333;
+}
 
 /*****************************************************
 *Contact Form settings
