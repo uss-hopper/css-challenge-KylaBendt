@@ -69,6 +69,14 @@ header {
 	font-weight: 400;
 }
 
+header div h1 {
+	display: inline-block;
+}
+
+header div em {
+	display: inline-block;
+}
+
 
 footer {
 	background-color: black;
