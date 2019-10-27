@@ -71,10 +71,14 @@ header {
 
 header div h1 {
 	display: inline-block;
+	font-size: large;
+	padding-left: 2em;
+	padding-right: .5em;
 }
 
 header div em {
 	display: inline-block;
+	font-size: x-small;
 }
 
 
