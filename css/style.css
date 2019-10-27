@@ -61,10 +61,18 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-/*Change font for the whole page*/
+
+/*****************************************************
+*Change FONT for the WHOLE page
+*****************************************************/
 * {
 	font-family: ocr-a-std, monospace;
 }
+
+/****************************************************
+*Header settings
+*****************************************************/
+
 /*Set header colors and font*/
 header {
 	background-color: #333333;
@@ -80,17 +88,22 @@ header div h1 {
 	padding-right: .5em;
 }
 
+/*Tag line settings*/
 header div em {
 	display: inline-block;
 	font-size: x-small;
 }
 
-/*make welcome image smaller */
+/*Welcome image */
 img[src*="welcome"] {
 	width: 300px;
 	display: block;
 	margin: 0 auto;
 }
+
+/****************************************************
+*Instructions settings
+*****************************************************/
 
 /*Set black border and margin for Instructions*/
 .instructions-wrapper {
@@ -98,6 +111,7 @@ img[src*="welcome"] {
 	margin: 2em 4em;
 }
 
+/*Instructions - header & list*/
 .instructions-content {
 	display: inline-block;
 	width: 50%;
@@ -105,21 +119,51 @@ img[src*="welcome"] {
 	padding-left: 1em;
 }
 
+/*instructions header*/
 .instructions-content > h2 {
 	font-size: small;
 }
 
+/*instructions list*/
 ol {
 	font-size: xx-small;
 	padding-left: 1.7em;
 }
 
+/*instructions image*/
 img[src*="janeway"] {
 	display: inline-block;
 	width: 130px;
 	justify-content: end;
 }
 
+/****************************************************
+*About Me (A Day in the Life...) settings
+*****************************************************/
+
+
+
+/****************************************************
+*Instructions settings
+*****************************************************/
+
+
+
+/****************************************************
+*Professional Skills settings
+*****************************************************/
+
+
+
+/*****************************************************
+*Contact Form settings
+*****************************************************/
+
+
+
+/*****************************************************
+*Footer settings
+*****************************************************/
 footer {
 	background-color: black;
 	color: white;
