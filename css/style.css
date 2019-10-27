@@ -140,12 +140,39 @@ img[src*="janeway"] {
 /****************************************************
 *About Me (A Day in the Life...) settings
 *****************************************************/
+/* About Me - Whole Section*/
+.about-me {
+	background-color: #0000FF;
+	color: #FFFFFF;
+}
 
+/*image*/
+img[src*="stunning"] {
+	display: inline;
+	border: .2em solid white;
+	width: 140px;
+}
 
+/*A day in the life*/
+.about-me > div > h2 {
+	display: inline;
 
-/****************************************************
-*Instructions settings
-*****************************************************/
+}
+/*	About me body text*/
+.about-me > div > p {
+	display: inline;
+}
+
+.about-me > div > p > span {
+	font-style: italic;
+	color: #FFFF27;
+	font-weight: bold;
+
+}
+
+	/****************************************************
+	*Instructions settings
+	*****************************************************/
 
 
 
