@@ -61,14 +61,18 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+/*Set header colors and font*/
 header {
 	background-color: #333333;
 	color: #00FF00;
 	font-family: ocr-a-std, monospace;
 	font-style: normal;
 	font-weight: 400;
+	margin-bottom: 2em;
 }
 
+/*make header and tagline display as inline-block so they will be side by side */
 header div h1 {
 	display: inline-block;
 	font-size: large;
@@ -81,6 +85,12 @@ header div em {
 	font-size: x-small;
 }
 
+/*make welcome image smaller */
+img[src="images/welcome.gif"] {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
 
 footer {
 	background-color: black;
