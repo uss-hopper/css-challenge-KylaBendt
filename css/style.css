@@ -95,7 +95,29 @@ img[src*="welcome"] {
 /*Set black border and margin for Instructions*/
 .instructions-wrapper {
 	border: .3em solid black;
-	margin-top: 2em;
+	margin: 2em 4em;
+}
+
+.instructions-content {
+	display: inline-block;
+	width: 50%;
+	padding-right: 18%;
+	padding-left: 1em;
+}
+
+.instructions-content > h2 {
+	font-size: small;
+}
+
+ol {
+	font-size: xx-small;
+	padding-left: 1.7em;
+}
+
+img[src*="janeway"] {
+	display: inline-block;
+	width: 130px;
+	justify-content: end;
 }
 
 footer {
