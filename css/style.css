@@ -92,6 +92,12 @@ img[src*="welcome"] {
 	margin: 0 auto;
 }
 
+/*Set black border and margin for Instructions*/
+.instructions-wrapper {
+	border: .3em solid black;
+	margin-top: 2em;
+}
+
 footer {
 	background-color: black;
 	color: white;
