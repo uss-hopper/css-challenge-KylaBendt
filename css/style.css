@@ -62,5 +62,10 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	/*TODO: Footer still needs a different font*/
+}
 
