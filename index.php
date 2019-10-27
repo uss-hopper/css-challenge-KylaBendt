@@ -25,7 +25,8 @@
 				<div class="container">
 
 					<!-- WELCOME IMAGE -->
-					<img src="images/welcome.gif" alt="welcome to my homepage">
+<!--					<img src="images/welcome.gif" alt="welcome to my homepage">-->
+					<img src="images/welcome-kyla.png" alt="welcome to my homepage">
 
 					<div class="instructions-wrapper">
 						<div class="instructions-content">
