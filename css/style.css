@@ -61,11 +61,21 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+header {
+	background-color: #333333;
+	color: #00FF00;
+	font-family: ocr-a-std, monospace;
+	font-style: normal;
+	font-weight: 400;
+}
+
 
 footer {
 	background-color: black;
 	color: white;
 	text-align: center;
-	/*TODO: Footer still needs a different font*/
+	font-family: ocr-a-std, monospace;
+	font-style: normal;
+	font-size: small;
 }
 
