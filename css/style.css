@@ -86,7 +86,7 @@ header div em {
 }
 
 /*make welcome image smaller */
-img[src="images/welcome.gif"] {
+img[src*="welcome"] {
 	width: 300px;
 	display: block;
 	margin: 0 auto;
