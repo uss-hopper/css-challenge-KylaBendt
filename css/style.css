@@ -61,14 +61,14 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-
+/*Change font for the whole page*/
+* {
+	font-family: ocr-a-std, monospace;
+}
 /*Set header colors and font*/
 header {
 	background-color: #333333;
 	color: #00FF00;
-	font-family: ocr-a-std, monospace;
-	font-style: normal;
-	font-weight: 400;
 	margin-bottom: 2em;
 }
 
@@ -96,8 +96,6 @@ footer {
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-family: ocr-a-std, monospace;
-	font-style: normal;
 	font-size: small;
 }
 
