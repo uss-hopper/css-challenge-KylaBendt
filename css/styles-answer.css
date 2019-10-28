@@ -67,5 +67,24 @@ body { width: 100%;}
  *************/
 
 body {
-
+	font-family: monospace, "Courier New";
 }
+
+section {
+	padding: 2.75rem 0;
+}
+
+/**************
+*Header Styles
+ *************/
+
+header {
+	background-color: #333;
+	color: lime;
+}
+/* rem is relative to the root element.  em is relative to current element. */
+header h1 {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
