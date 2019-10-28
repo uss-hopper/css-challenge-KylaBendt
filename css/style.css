@@ -188,14 +188,31 @@ img[src*="stunning"] {
 table {
 	background-color: #333333;
 	color: #00FF00;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+	padding-right: 6em;
 }
-table >tr >th {
+
+tr th:nth-child(1) {
+	width: 20%;
+}
+
+tr th:nth-child(2) {
+	width: 30%;
+}
+
+tr th:nth-child(3) {
+	width: 50%;
+}
+
+tr >th {
 	font-weight: bold;
 	border-width: thin;
 	border-color: white;
-
 }
-table > tr > td {
+
+tr > td {
 	font-weight: normal;
 	border-width: thin;
 	border-color: white;
