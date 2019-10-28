@@ -116,3 +116,25 @@ img[alt="welcome to my homepage"] {
 .instructions-content h2 {
 	margin-top: 0;
 }
+
+/**************
+*About Me Styles
+ *************/
+
+section.about-me {
+	background-color: blue;
+	color: white;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-weight: bold;
+	font-style: italic;
+}
