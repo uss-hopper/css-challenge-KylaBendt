@@ -148,19 +148,22 @@ img[src*="janeway"] {
 
 /*image*/
 img[src*="stunning"] {
-	display: inline;
 	border: .2em solid white;
 	width: 140px;
+	float: left;
+	margin: 1.5em .5em 1.5em 4em;
 }
 
 /*A day in the life*/
 .about-me > div > h2 {
-	display: inline;
+	font-size: small;
+	padding: 1.5em 0em 0em 0em;
 
 }
 /*	About me body text*/
 .about-me > div > p {
-	display: inline;
+	font-size: xx-small;
+	padding-right: 6em;
 }
 
 /*yellow span*/
@@ -178,11 +181,24 @@ img[src*="stunning"] {
 /*Header*/
 .about-me + section > div > h2{
 	text-align: end;
-	font-size: small
+	font-size: small;
+	padding-right: 6em;
 }
 
 table {
 	background-color: #333333;
+	color: #00FF00;
+}
+table >tr >th {
+	font-weight: bold;
+	border-width: thin;
+	border-color: white;
+
+}
+table > tr > td {
+	font-weight: normal;
+	border-width: thin;
+	border-color: white;
 }
 
 /*****************************************************
