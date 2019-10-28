@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- custom CSS stylesheet -->
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/styles-answer.css" type="text/css" />
 
 		<title>CSS Mockup Activity</title>
 	</head>
@@ -25,8 +25,8 @@
 				<div class="container">
 
 					<!-- WELCOME IMAGE -->
-<!--					<img src="images/welcome.gif" alt="welcome to my homepage">-->
-					<img src="images/welcome-kyla.png" alt="welcome to my homepage">
+					<img src="images/welcome.gif" alt="welcome to my homepage">
+<!--					<img src="images/welcome-kyla.png" alt="welcome to my homepage">-->
 
 					<div class="instructions-wrapper">
 						<div class="instructions-content">
