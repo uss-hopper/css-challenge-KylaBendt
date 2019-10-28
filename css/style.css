@@ -228,8 +228,8 @@ td {
 *Contact Form settings
 *****************************************************/
 .form-wrapper {
-	background-color: #006400;
 	color: #00FF00;
+	background-color: #006400;
 	border-color: #333333;
 	border-width: 2em 5em;
 	border-style: solid;
@@ -237,7 +237,6 @@ td {
 
 .form {
 	width: 30%;
-
 }
 
 .form * {
