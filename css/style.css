@@ -222,14 +222,27 @@ td {
 	font-size: x-small;
 	border: 1px solid white;
 	padding: .5em;
-
 }
 
 /*****************************************************
 *Contact Form settings
 *****************************************************/
+.form-wrapper {
+	background-color: #006400;
+	color: #00FF00;
+	border-color: #333333;
+	border-width: 2em 5em;
+	border-style: solid;
+}
 
+.form {
+	width: 30%;
 
+}
+
+.form * {
+	display: block;
+}
 
 /*****************************************************
 *Footer settings
@@ -238,6 +251,6 @@ footer {
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-size: small;
+	font-size: xx-small;
 }
 
